@@ -12,7 +12,7 @@ export default {
       },
     ],
   },
-  moduleFileExtensions: ['mts', 'mjs', 'js', 'json', 'node'],
-  testMatch: ['**/?(*.)+(spec|test).mts'],
+  moduleFileExtensions: ['ts', 'mts', 'mjs', 'js', 'json', 'node'],
+  testMatch: ['**/?(*.)+(spec|test).?(m)ts'],
   roots: ['<rootDir>/tests'],
 };
